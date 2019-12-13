@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge 1</title>
+    <script type="text/javascript">
+
+      function calculate(){
+        var age = document.getElementById("age").value;
+        var years of education = document.getElementById("years").value;
+        var taxes;
+        if(age = "over 18"){
+          popup = "graduated";
+
+        }
+        if(age = "less than 18"){
+          popup = "get to class";
+
+        }
+        if(years = over 12 years of education){
+          popup = "graduated";
+
+        }
+        if(years = less than 12 years of education){
+          popup = "get to class";
+        }
+
+        document.getElementById("output").innerHTML = taxes;
+        }
+        </script>
+      </head>
+      <body>
+        Age: <input type="text" name="age" id="age"><br />
+          Years of Education: <select name="years of education" id="years of education">
+            <option value="age">Age</option>
+            <option value="years of education">Years of Education</option>
+          </select><br />
+          <button type="button" name="Calculate" onClick="calculate()">Calculate</button>
+        </body>
+      </html>
