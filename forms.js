@@ -12,4 +12,4 @@ function refresher(){
   <table id="myTable" border="1"
     <tr>
     <td>stuff</td>
-    <td>more stuff<
+    <td>more stuff</td>
